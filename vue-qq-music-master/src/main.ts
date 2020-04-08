@@ -5,6 +5,7 @@ import App from './App.vue';
 import router from './router/index';
 import store from './store/';
 import VueLazyload from 'vue-lazyload';
+import './assets/js/rem.js' // 引入rem.js 
 
 Vue.config.productionTip = false;
 

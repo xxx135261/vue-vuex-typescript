@@ -20,5 +20,5 @@ export function albumCoverUrl(id: number) {
 // @param {any} keyword 用户输入的数据
 // @param {number} [page=1]  页数默认为1
 export function searchUrl(keyword, page = 1) {
-    return `${SEARCH_URL}?keyword=${keyword}&page=${page}`;
+    return `${SEARCH_URL}?w=${keyword}&p=${page}`;
 }
